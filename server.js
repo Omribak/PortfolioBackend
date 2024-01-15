@@ -9,7 +9,7 @@ dotenv.config({ path: './config.env' });
 const app = express();
 app.use(
   cors({
-    origin: 'https://new-portfolio-vja2.onrender.com/'
+    origin: 'https://new-portfolio-vja2.onrender.com'
   })
 );
 app.use(express.json());
